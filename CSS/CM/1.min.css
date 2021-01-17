@@ -1,0 +1,97 @@
+.btn {
+
+}
+.hdr {
+    height: 100%;
+    padding: 30px 30px 0 30px;
+    overflow: auto;
+    width: 260px;
+}
+.hdr>div {
+    margin: 0 0 20px 0;
+}
+.hdr:last-child {
+    margin: 0;
+}
+.hdr .lgo .img svg {
+    display: block;
+    margin: auto;
+    padding: 0 0 10px 0;
+}
+.hdr .lgo {
+    text-align: center;
+}
+.hdr .lgo .txt {
+    color: rgba(0, 44, 73, 1);
+}
+.hdr .usr {
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgb(255,255,255), 0 0 25px rgba(0,0,0,0.25);
+}
+.hdr .usr .info {
+    display: flex;
+    margin: 0 0 15px 0;
+    flex-direction: row;
+}
+.hdr .usr .info .img {
+    height: 50px;
+    width: 50px;
+    background-image: url("../../Media/Photos/info/profile.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 12.5px;
+}
+.hdr .usr .info .txt {
+    color: rgba(0, 44, 73, 1);
+    padding: 5px 10px 5px 5px;
+}
+.hdr .usr .mnu {
+    display: flex;
+    flex-direction: row;
+}
+.hdr .usr .mnu .btn {
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 10px;
+    width: 100%;
+}
+.hdr .usr .mnu .btn:hover {
+    border-radius: 5px;
+    background-color: rgb(239, 242, 244, 1);
+}
+.hdr .usr .mnu .btn svg {
+    display: block;
+    margin: auto;
+}
+.hdr .mnu {
+    display: flex;
+    flex-direction: column;
+}
+.hdr .mnu .btn {
+    color: rgba(0, 88, 120, 1);
+    cursor: pointer;
+    display: flex;
+    fill: rgba(0, 88, 120, 1);
+    margin: 0 0 7.5px 0;
+    padding: 10px;
+    border-radius: 10px;
+    flex-direction: row;
+}
+.hdr>.mnu>.btn:first-child {
+    background-color: rgb(239, 242, 244, 1);
+}
+.hdr .mnu .btn:hover {
+    background-color: rgb(239, 242, 244, 1);
+}
+.hdr .mnu .btn .icn {
+    height: 37.11px;
+    width: 31px;
+}
+.hdr .mnu .btn .icn svg {
+    display: block;
+    margin: auto;
+}
+.hdr .mnu .btn .txt {
+    padding: 7px 20px 0 0;
+}
