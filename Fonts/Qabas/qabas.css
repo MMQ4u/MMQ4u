@@ -1,0 +1,16 @@
+@font-face {
+	font-family: alqabas-bold0;
+	src: url("./ArbFONTS-19304-alqabas-bold.ttf") format("truetype");
+}
+@font-face {
+	font-family: alqabas-bold1;
+	src: url("./ArbFONTS-19305-alqabas-bold.ttf") format("truetype");
+}
+@font-face {
+	font-family: alqabas-light;
+	src: url("./ArbFONTS-19306-alqabas-light.ttf") format("truetype");
+}
+@font-face {
+	font-family: alqabas;
+	src: url("./ArbFONTS-19307-alqabas-regular.ttf") format("truetype");
+}
